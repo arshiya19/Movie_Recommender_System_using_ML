@@ -7,4 +7,5 @@ st.title('Movies')
 
 option = st.selectbox( 'What would like to search?', movies_list )
 
-option = st.selectbox( 'What would like to search?', movies_list )
+
+
