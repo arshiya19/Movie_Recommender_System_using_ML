@@ -1,7 +1,10 @@
-# Movie_Recommender_System_using_ML
-
 # Movie Recommendation System 
 
+The movie recommendation system is designed to provide users with personalized movie suggestions based on their preferences and viewing history. This system leverages a combination of movie metadata (such as genres, keywords, cast, and crew) and advanced text processing techniques to create a comprehensive profile for each movie. By transforming textual descriptions and attributes into numerical vectors, the system can calculate similarities between movies using cosine similarity. This allows it to identify and recommend movies that are most similar to a user's past choices or a specific movie they liked. The recommendation system enhances user experience by offering tailored suggestions, thereby helping users discover new movies that match their tastes, increasing engagement, and satisfaction. This approach not only simplifies the movie selection process but also introduces users to a broader range of content they are likely to enjoy.
+
+<img width="1431" alt="Screenshot 2024-07-06 at 12 11 43 AM" src="https://github.com/arshiya19/Movie_Recommender_System_using_ML/assets/72481315/de6ec7b7-3a9e-40f5-b077-2cd561e76710">
+
+  
 ## Importing Libraries and Datasets
 1.  Import Libraries: Necessary libraries like numpy for numerical operations, pandas for data manipulation, and ast for parsing strings to lists/       dictionaries are imported. These are essential for handling and transforming the data efficiently.
 
@@ -45,4 +48,4 @@
 16. Save Data and Models: The processed data and similarity matrix are saved using pickle. This ensures that the data and model can be easily loaded and used in the web application without the need for reprocessing.
 
 ## Web Application using Streamlit
-17. Streamlit App: An interactive web application is created using Streamlit to allow users to interact with the recommendation system. Users can select a movie and get recommendations, making the system accessible and user-friendly.
+17. Streamlit App: An interactive web application is created using Streamlit to allow users to interact with the recommendation system. Users can select a movie and get recommendations, making the system accessible and user-friendly.(run with command streamlit app wesbite.py)
