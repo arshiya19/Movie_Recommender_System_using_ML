@@ -3,15 +3,15 @@
 # Movie Recommendation System 
 
 ## Importing Libraries and Datasets
-   1.  Import Libraries: Necessary libraries like numpy for numerical operations, pandas for data manipulation, and ast for parsing strings to lists/       dictionaries are imported. These are essential for handling and transforming the data efficiently.
+1.  Import Libraries: Necessary libraries like numpy for numerical operations, pandas for data manipulation, and ast for parsing strings to lists/       dictionaries are imported. These are essential for handling and transforming the data efficiently.
 
-    2. Load Datasets: The movies and credits datasets are loaded. These datasets contain information about movies and their respective cast/crew, which are     crucial for building a recommendation system.
+2. Load Datasets: The movies and credits datasets are loaded. These datasets contain information about movies and their respective cast/crew, which are     crucial for building a recommendation system.
 
 ## Data Merging
-    3. Merge Datasets: The movies and credits datasets are merged based on the title column to combine relevant information from both datasets into a single dataframe. This simplifies the data handling process and ensures all necessary information is in one place.
+3. Merge Datasets: The movies and credits datasets are merged based on the title column to combine relevant information from both datasets into a single dataframe. This simplifies the data handling process and ensures all necessary information is in one place.
 
 ## Data Selection
-    4. Select Relevant Columns: Only the essential columns (movie_id, title, overview, genres, keywords, cast, crew) are kept. This reduces the complexity of the dataset and focuses on the attributes necessary for creating recommendations.
+4. Select Relevant Columns: Only the essential columns (movie_id, title, overview, genres, keywords, cast, crew) are kept. This reduces the complexity of the dataset and focuses on the attributes necessary for creating recommendations.
 
 ## Data Cleaning
 
